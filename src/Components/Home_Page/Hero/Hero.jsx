@@ -1,7 +1,7 @@
 import React from "react";
-import { hero, profile } from "../../Asset";
-import { stats } from "../../Constants";
-import styles from "../../style";
+import { hero, profile } from "../../../Asset";
+import { stats } from "../../../Constants";
+import styles from "../../../style";
 
 const Hero = () => {
   return (

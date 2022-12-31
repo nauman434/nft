@@ -1,6 +1,6 @@
 import React from "react";
 import "./Top_Collection.css";
-import { topNFTs } from "../../Constants";
+import { topNFTs } from "../../../Constants";
 
 const Top_Collection = () => {
   return (

@@ -6,7 +6,10 @@ module.exports = {
     extend: {
       colors: {
         primary: "#ffff",
+        dark: "#2B2B2B",
+        para: "#858584",
         secondary: "#A259FF",
+        links: "#cccccc",
         green: "#24FF00",
         blue: "rgba(5, 0, 255, 0.33);",
         grey: "#3b3b3b"
@@ -19,7 +22,7 @@ module.exports = {
     screens: {
       xs: "480px",
       ss: "620px",
-      sm: "900px",
+      sm: "1070px",
       md: "1060px",
       lg: "1200px",
       xl: "1700px",

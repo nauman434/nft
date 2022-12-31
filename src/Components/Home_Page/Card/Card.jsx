@@ -1,7 +1,6 @@
 import React from "react";
-import { img1, profile } from "../../Asset";
 import { useState } from "react";
-import { cardData } from "../../Constants";
+import { cardData } from "../../../Constants";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 

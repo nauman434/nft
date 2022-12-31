@@ -1,5 +1,5 @@
 import React from "react";
-import { topCategories } from "../../Constants";
+import { topCategories } from "../../../Constants";
 import './Top_Categories.css'
 
 const Top_Categories = () => {

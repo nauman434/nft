@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../style";
+import styles from "../../../style";
 import Card from "../Card/Card";
 
 const Trending_NFTS = () => {
