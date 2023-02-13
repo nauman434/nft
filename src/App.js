@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect, useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { Home, NFT } from "./Pages";
-import { Navbar, More_Footer } from "./Components/Home_Page";
+import { Navbar, More_Footer, Create_Sell } from "./Components/Home_Page";
 import styles from "./style";
 
 const useScrollDirection = () => {
@@ -49,6 +49,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/nft' element={<NFT />} />
+        <Route path='/create-nft' element={<Create_Sell />} />
       </Routes>
 
       <div>
