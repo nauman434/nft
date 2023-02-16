@@ -1,8 +1,11 @@
 import React from 'react'
 
+
 const Create_Sell = () => {
   return (
-    <div>Create_Sell</div>
+    <div className=''>
+
+    </div>
   )
 }
 
