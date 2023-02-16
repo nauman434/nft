@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect, useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
-import { Home, NFT } from "./Pages";
+import { Home, NFT, Upload } from "./Pages";
 import { Navbar, More_Footer } from "./Components/Home_Page";
 import styles from "./style";
 
@@ -49,6 +49,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/nft' element={<NFT />} />
+        <Route path='/upload' element={<Upload />} />
       </Routes>
 
       <div>
